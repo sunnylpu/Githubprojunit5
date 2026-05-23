@@ -9,6 +9,6 @@ describe('GET /', () => {
   it('should return the correct message', async () => {
     const res = await request(server).get('/');
     expect(res.statusCode).toEqual(200);
-    expect(res.text).toContain('Hello, CI/CD Pipeline is working!');
+    expect(res.text).toContain('Hello i am, CI/CD Pipeline is working!');
   });
 });
