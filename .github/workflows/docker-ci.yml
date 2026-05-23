@@ -36,4 +36,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/app-ci:latest
+          tags: ${{ github.actor }}/app-ci:latest
